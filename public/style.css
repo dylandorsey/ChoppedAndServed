@@ -1,0 +1,520 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+.antispam { display:none;}
+
+.carousel-inner{
+    position: relative;
+    width: 100%;
+}
+
+.carousel-item{
+    width: 100%;
+    max-height: 750px;
+}
+
+.fixedbardisplacement{
+    height: 60px;
+}
+
+.innerone{
+
+}
+
+.innertwo{
+
+}
+
+.videospacing{
+    padding: 30px 0px;
+    background-color: black;
+}
+
+video{
+    padding: 15px;
+}
+
+.innerthree{
+}
+
+.maintext{
+    position: absolute;
+    background-color: rgba(255,255,255,0.5) ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    text-align: center;
+    color: black;
+    font-size: 5vh;
+}
+
+carouselExampleControls{
+    width: 100%;
+}
+
+.carousel{
+    z-index: 40;
+}
+
+.mainlogo{
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    color: black;
+}
+
+.carouselCSS{
+    width: 100%;
+}
+
+.CSSCarouselItem{
+    width:100%;
+    height: 600px;
+
+}
+
+.image1{
+    background-image: url(images/DRB_2610.jpeg);
+    width: 100%;
+    height: 600px;
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center; 
+}
+
+
+.meetthechef{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meetthechef p {
+    font-size: 1.45rem;
+}
+
+.container{
+        
+}
+
+.backgroundimage{
+    z-index: 100;
+
+}
+
+.maniphoto{
+    width: 100%;
+}
+
+.leftflex{
+    margin-top: 30px;
+    margin-bottom:30px;
+    align-self: center;
+}
+.rightflex{
+    margin-top: 30px;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.firsthead{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.secondhead{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted darkgrey;
+    width: 100%;
+}
+
+.firstheadblackback{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    letter-spacing: 2vh;
+
+}
+
+.secondheadblackback{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted darkgrey;
+    width: 100%;
+    margin: 0px 15px;
+    color: lightgray;
+
+}
+
+p{
+    text-align: justify;
+    margin: 0 0 10px;
+    font-size: 1.45rem;
+      
+}
+
+
+/*IMPORTANT FOR MEDIA QUERIES*/
+.image_full{
+    display:block;
+   }
+ 
+.image_mobile{
+   display:none;
+  }
+/*IMPORTANT FOR MEDIA QUERIES*/
+
+/*MISSION*/
+
+.missionbox{
+    position: absolute;
+    margin: auto;
+    padding: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    color: black;
+    display: flex;
+}
+
+.words{
+    margin: auto;
+    padding:30px;
+    align-self: center;
+    background-color: rgba(255,255,255,0.8) ;
+    box-shadow: 0px 0px 50px -10px ;
+    transition: background-color 500ms ease-in-out;
+}
+
+.words:hover{
+    background-color: rgba(255,255,255,1.0);
+}
+
+
+
+
+/*CATERING AND EVENTS*/
+
+
+.maintext3{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    text-align: center;
+    color: black;
+    font-size: 5vh;
+    margin: 30px auto;
+}
+
+.cateringbox{
+    top: 0; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    color: black;
+    background-color: rgba(255,255,255,0.8) ;
+    display: flex;
+}
+
+.sectionheading{
+    margin: auto;
+    align-self: center;
+    width: 100%;
+}
+
+.flexem{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexitem{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.eventicon{
+    width:75%;
+}
+
+.firstheadevent{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    align-self: center;
+    
+}
+
+/*CONTACT US FORM*/
+.contactUsForm {
+    display: grid;
+    grid-template-columns: 1;
+}
+
+.contactUsForm h4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-family: 'Raleway', sans-serif;
+    justify-self: left;
+}
+
+.contactUsForm h3 {
+    margin: 20px 0px 20px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contactUsForm input {
+    width: 100%;
+    grid-column: 1 / 2; 
+    justify-self: left;
+    margin-bottom: 10px;
+}
+
+.contactUsForm p {
+    font-size: 1.45rem;
+    grid-column: 1 /2; 
+    justify-self: left;
+    padding: 0px;
+    margin-bottom: 2px;
+}
+
+#contactUsFormSubmit {
+    font-size: 1.45rem;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin: 20px 0px 20px 0px;
+}
+
+/*TESTIMONIAL*/
+
+.missionbox2{
+    position: absolute;
+    padding: auto 30px;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    text-align: center;
+    color: black;
+    display: flex;
+    height: 100%;
+}
+
+.words2{
+    margin: auto;
+    padding: 30px;
+    align-self: center;
+    background-color: rgba(255,255,255,0.8) ;
+    box-shadow: 0px 0px 40px 00px black;
+    transition: background-color 500ms ease-in-out;
+}
+
+.words2:hover{
+    background-color: rgba(255,255,255,1.0) ;
+    font-weight: 900;
+}
+
+.stars{
+    padding-top: 15px;
+}
+
+.contactcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+
+.contactcols{
+}
+
+.sociallink{
+    color: black;
+}
+
+.contactcontainer li{
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+}
+
+.contactcontainer ul{
+    list-style-type: none;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+}
+
+/*    ----------------------------------------MENU CSS----------------------------------------------*/
+
+.menutext{
+    text-align: center;
+}
+
+.price{
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.menuem{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thesmallprint{
+    font-size: px;
+    color: grey;
+    font-weight: 200;
+}
+
+.fakemargins{
+    padding: 15px;
+    border: 1px dotted darkgrey;
+    border-radius: 4px;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+.fakemargins:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.menuitem{
+    margin: 15px 0px;
+    
+}
+
+.shadow{
+    box-shadow: 0px 0px 20px 0px grey;
+
+
+}
+
+.eventp{
+    padding: 15px;
+}
+
+.maintext4{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    text-align: center;
+    color: black;
+    font-size: 5vh;
+    margin: 30px auto;
+}
+
+.flexguy{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.manunav{
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.navguy{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.manunav a{
+    color:lightgrey;
+    font-weight: 500;
+}
+
+.manunav a:hover{
+    color:white;
+    font-weight: 900;
+}
+
+.health{
+    margin: 0px auto;
+    padding: auto;
+    width: 28px;
+    justify-content: center;
+}
+
+.contain4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.backgroundcul{
+    border: 1px dotted darkgrey;
+}
+
+.iconn{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.iconcap{
+    text-align: center;
+}
+
+.stickynavcontainer{
+    background-color: black;
+}
+
+.flexphotos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.longimage{
+    padding: 10px;
+}
+
+.skinnyimage{
+    padding: 10px;
+}
+
+.photoheader{
+    padding-top: 30px;
+    margin: auto;
+    align-self: center;
+    width: 100%;
+}
+
+
+.img_fluid:hover{
+}
+
+.eventicon:hover{
+}
+
+@media (max-width: 800px) and (min-width: 320px){
+    .eventicon:hover{
+        width:65%;
+}
+}
+
+
+  section{
+
+  }

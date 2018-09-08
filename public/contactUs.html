@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="images/abouticons-06.png" />
+    <title>Chopped and Served | Catering</title>
+    <meta property="og:image" content="images/Metaphoto">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <meta name="description" content="Chopped & Served is a full service Catering Company based in Minneapolis, dedicated to providing a high quality customer service and a diverse set of delicious dishes. We cater wedding receptions, grad parties, office lunches and anything else you can think of!">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar shadow backgroundimage fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/CS-03.png" width="120" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contactUs.html">Contact Us
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vegan.html">Vegan Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gamedayMenu.html">Game Day Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="photos.html">Photos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--END NAVBAR-->
+    <section class="container">
+        <div class="maintext3">
+            <div class="cateringbox">
+                <div class="sectionheading">
+                    <h1 class="firsthead">CONTACT US</h1>
+                    <h3>Please use the form below to inquire about catering your upcoming event!</h3>
+                </div>
+            </div>
+        </div>
+        <div class="flexem span12">
+            <div>
+                <form id="contactUsForm" class="contactUsForm">
+                    <h4>Contact information</h4>
+                    <p>Name:</p>
+                    <input type="text" name="name" required="true" />
+                    <p>Company name:
+                    </p>
+                    <input type="text" name="companyName" />
+                    <p>Address line 1:
+                    </p>
+                    <input type="text" name="addressLine1" />
+                    <p>Address line 2:
+                    </p>
+                    <input type="text" name="addressLine2" />
+                    <p>City:
+                    </p>
+                    <input type="text" name="city" />
+                    <p>State:
+                    </p>
+                    <input type="text" name="state" />
+                    <p>Zip code:
+                    </p>
+                    <input type="text" name="zipCode" />
+                    <p>Telephone:
+                    </p>
+                    <input type="text" name="telephone" />
+                    <p>Email:
+                    </p>
+                    <input type="text" name="email" required="true" />
+                    <p class="antispam">Leave this empty if you see it or your message will not be sent:
+                    </p>
+                    <input class="antispam" type="text" name="url" />
+
+                    <h4>Event information</h4>
+                    <p>Type of event:
+                    </p>
+                    <input type="text" name="eventType" />
+                    <p>Desired event date:
+                    </p>
+                    <input type="date" name="desiredEventDate" />
+                    <p>Number of guests:
+                    </p>
+                    <input type="number" name="guestQuantity" />
+                    <p>Budget range:
+                    </p>
+                    <input type="number" name="budget" />
+
+                    <h4>Desired location</h4>
+                    <p>Address line 1:
+                    </p>
+                    <input type="text" name="locationAddressLine1" />
+                    <p>Address line 2:
+                    </p>
+                    <input type="text" name="locationAddressLine2" />
+                    <p>City:
+                    </p>
+                    <input type="text" name="locationCity" />
+                    <p>State:
+                    </p>
+                    <input type="text" name="locationState" />
+                    <p>Zip code:
+                    </p>
+                    <input type="text" name="locationZipCode" />
+
+                    <p>Dietary restrictions:
+                    </p>
+                    <textarea name="dietaryRestrictions"></textarea>
+                    <p>Additional comments:
+                    </p>
+                    <textarea name="message"></textarea>
+                    <input id="contactUsFormSubmit" type="submit" value="Send" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer class="container">
+        <div class="contactcontainer">
+            <div class="contactcols col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <img src="images/logo-02.png" width="100%" alt="">
+            </div>
+            <div class="contactcols col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <h6 class="firsthead"></h6>
+                <h6 class="firsthead">Minneapolis MN 55403</h6>
+                <h6 class="firsthead">Sales@choppednserved.com</h6>
+                <h6 class="firsthead">+1 (612) 434-5377</h6>
+            </div>
+            <div class="contactcols col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <ul>
+                    <li>
+                        <a class="sociallink firsthead" href="https://www.facebook.com/choppednserved/">Facebook</a>
+                    </li>
+                    <li>
+                        <a class="sociallink firsthead" href="https://www.facebook.com/choppednserved/">Instagram</a>
+                    </li>
+                    <li>
+                        <a class="sociallink firsthead" href="https://www.facebook.com/choppednserved/">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
+    <script>
+        $(function () {
+            Holder.addTheme("thumb", {
+                background: "#55595c",
+                foreground: "#eceeef",
+                text: "Thumbnail"
+            });
+            $('#myCarousel').carousel({
+                // Options
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            let contactUsForm = document.getElementById("contactUsForm");
+            let contactFormSubmit = document.getElementById("contactFormSubmit");
+            function handleSubmit(event) {
+                return function (event) {
+                    event.preventDefault();
+                    console.log('init handlesubmit');
+                    let body = {
+
+                        message: {
+                            subject: "New message via choppedandserved.com",
+                            text: `Hello, Imani.
+                            The following message was sent from choppedandserved.com:
+
+                            CONTACT INFORMATION
+                            Name: ${contactUsForm.name.value}
+                            Company name: ${contactUsForm.companyName.value}
+                            Address line 1: ${contactUsForm.addressLine1.value}
+                            Address line 2: ${contactUsForm.addressLine2.value}
+                            City: ${contactUsForm.city.value}
+                            State: ${contactUsForm.state.value}
+                            Zip code: ${contactUsForm.zipCode.value}
+                            Telephone: ${contactUsForm.telephone.value}
+                            Email: ${contactUsForm.email.value}
+
+                            EVENT INFORMATION
+                            Type of event: ${contactUsForm.eventType.value}
+                            Desired event date: ${contactUsForm.desiredEventDate.value}
+                            Number of guests: ${contactUsForm.guestQuantity.value}
+                            Budget range: ${contactUsForm.budget.value}
+                            
+                            DESIRED LOCATION INFORMATION
+                            Address line 1: ${contactUsForm.locationAddressLine1.value}
+                            Address line 2: ${contactUsForm.locationAddressLine2.value}
+                            City: ${contactUsForm.locationCity.value}
+                            State: ${contactUsForm.locationState.value}
+                            Zip code: ${contactUsForm.locationZipCode.value}
+                            Dietary restrictions: ${contactUsForm.dietaryRestrictions.value}
+                            Additional comments: ${contactUsForm.message.value}
+                            `,
+                        }
+                    };
+                    sendEmail(body);
+                }
+            };
+            function sendEmail(body) {
+                API_URL = "https://chopped-and-served-email-serv.herokuapp.com/handleContact";
+                $.ajax({
+                    contentType: 'application/json',
+                    type: "POST",
+                    url: API_URL,
+                    data: JSON.stringify(body),
+                    dataType: "json",
+                    crossDomain: true,
+                    cache: false
+                })
+                    .done((response) => {
+                        alert("Thank you. Your message message has been sent.");
+                    })
+                    .fail((error) => {
+                        console.log(error);
+                        alert("Message was not sent. Please try again later");
+                    })
+            }
+            $(contactUsForm).on("submit", handleSubmit());
+        })
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
