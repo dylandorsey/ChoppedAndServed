@@ -35,11 +35,14 @@
         width: 75%;
         margin-top: 30px;
         margin-bottom: 30px;
-        
     }
     
   }
 @media (max-width: 991px) and (min-width: 320px){
+    .contactUsForm {
+        width: 90%;
+    }
+
     .eventicon{
         width:75%;
     }

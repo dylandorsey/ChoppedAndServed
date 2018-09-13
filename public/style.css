@@ -97,7 +97,6 @@ carouselExampleControls{
 }
 
 .container{
-        
 }
 
 .backgroundimage{
@@ -251,33 +250,38 @@ p{
 }
 
 /*CONTACT US FORM*/
+.contactUsContainer {
+    padding-top: 60px;
+}
 .contactUsForm {
-    display: grid;
-    grid-template-columns: 1;
+    width:70%;
+    margin: 0 auto;
 }
 
-.contactUsForm h4 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+.contactUsForm h3 {
     font-family: 'Raleway', sans-serif;
     justify-self: left;
 }
 
-.contactUsForm h3 {
+.contactUsForm h2 {
     margin: 20px 0px 20px 0px;
     font-family: 'Raleway', sans-serif;
 }
 
 .contactUsForm input {
     width: 100%;
-    grid-column: 1 / 2; 
+    justify-self: left;
+    margin-bottom: 10px;
+}
+
+.contactUsForm textarea {
+    width: 100%;
     justify-self: left;
     margin-bottom: 10px;
 }
 
 .contactUsForm p {
     font-size: 1.45rem;
-    grid-column: 1 /2; 
     justify-self: left;
     padding: 0px;
     margin-bottom: 2px;
