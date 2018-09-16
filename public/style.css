@@ -7,15 +7,12 @@ body{
     border: 3px;
     border-color: #000000;
     padding: 3px;
-    position: fixed !important;
-    position: absolute; /*ie6*/
     height: 1em;
     width: 1em;
-    bottom: 3em;
-    right: 1.5em;
+    position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2;
+    grid-template-rows: 1fr;
 }
 
 #contactUsText {
@@ -24,30 +21,24 @@ body{
 }
 
 #contactUsButton {
+    margin: 0.25em;
     width: 1em;
     height: 1em;
     border-radius: 50%;
     background-color: #F15144;
-    color:white;
-    stroke: white;
-    fill: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    padding: 0;
-    grid-row: 2;
+    grid-row:  1;
     justify-self: center;
+    align-self: center;
 }
 
 #shoppingCart {
-    grid-column: 1;
     grid-row: 1;
     margin: 0;
     align-self: center;
     justify-self: center;
-    color: white !important;
-    fill: white !important;
-    stroke: white !important;
 }
 
 .antispam { display:none;}
