@@ -3,6 +3,10 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+h4 {
+    font-size: 1.6rem;
+}
+
 .antispam { display:none;}
 
 .carousel-inner{
@@ -152,8 +156,8 @@ carouselExampleControls{
 
 }
 
-p{
-    text-align: justify;
+p {
+    text-align: left;
     margin: 0 0 10px;
     font-size: 1.45rem;
       
