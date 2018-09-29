@@ -3,7 +3,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-#proTip-contactUs {
+#orderOnlineFloatingMessage {
     border: 3px;
     border-color: #000000;
     padding: 3px;
@@ -18,14 +18,19 @@ body{
     grid-template-rows: 2;
 }
 
+#orderOnlineFloatingMessage:hover {
+    cursor: crosshair;
+    transform: scale(1.1);
+}
+
 #contactUsText {
     grid-row: 1;
     justify-self: center;
 }
 
 #contactUsButton {
-    width: 1em;
-    height: 1em;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     background-color: #F15144;
     color:white;
@@ -40,6 +45,8 @@ body{
 }
 
 #shoppingCart {
+    width: 1rem;
+    height: 1rem;
     grid-column: 1;
     grid-row: 1;
     margin: 0;
@@ -267,10 +274,15 @@ p{
     display: flex;
 }
 
-.sectionheading{
+.sectionheading {
     margin: auto;
     align-self: center;
     width: 100%;
+}
+
+.sectionheading p {
+    text-align: inherit;
+    
 }
 
 .flexem{

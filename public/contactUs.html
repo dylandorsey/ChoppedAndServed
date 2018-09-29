@@ -67,13 +67,14 @@
                 <div class="sectionheading">
                     <h1 class="firsthead">CONTACT US</h1>
                     <h2>Please use the form below to inquire about catering your upcoming event!</h2>
+                    <p>* indicates required field.</p>
                 </div>
             </div>
         </div>
         <div class="flexem">
                 <form id="contactUsForm" class="contactUsForm">
                     <h3>Contact information</h3>
-                    <p>Name:</p>
+                    <p>*Name:</p>
                     <input type="text" name="name" required="true" />
                     <p>Company name:
                     </p>
@@ -96,7 +97,7 @@
                     <p>Telephone:
                     </p>
                     <input type="text" name="telephone" />
-                    <p>Email:
+                    <p>*Email:
                     </p>
                     <input type="text" name="email" required="true" />
                     <p class="antispam">Leave this empty if you see it or your message will not be sent:
@@ -137,10 +138,13 @@
                     <p>Dietary restrictions:
                     </p>
                     <textarea name="dietaryRestrictions"></textarea>
-                    <p>Additional comments:
+                    <p>*Your order & additional comments:
                     </p>
-                    <textarea name="message"></textarea>
-                    <input id="contactUsFormSubmit" type="submit" value="Send" />
+                    <textarea name="message"
+                    required="true"
+                    placeholder="Tell us what you would like to enjoy at your event and any other details you would like us to know! Need help planning the menu? Let us know!"
+                    ></textarea>
+                    <input id="contactUsFormSubmit" type="submit" value="Send"/>
                 </form>
         </div>
     </div>
