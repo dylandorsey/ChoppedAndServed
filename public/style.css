@@ -3,6 +3,64 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+/* FLOATING BUTTONS */
+
+#orderOnlineFloatingMessage {
+    border: 3px;
+    border-color: #000000;
+    padding: 3px;
+    position: fixed !important;
+    position: absolute; /*ie6*/
+    height: 1em;
+    width: 1em;
+    bottom: 3em;
+    right: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+}
+
+#orderOnlineFloatingMessage:hover {
+    cursor: crosshair;
+    transform: scale(1.1);
+}
+
+#contactUsText {
+    grid-row: 1;
+    justify-self: center;
+}
+
+#contactUsButton {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #F15144;
+    color:white;
+    stroke: white;
+    fill: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 0;
+    grid-row: 2;
+    justify-self: center;
+}
+
+#shoppingCart {
+    width: 1rem;
+    height: 1rem;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+    color: white !important;
+    fill: white !important;
+    stroke: white !important;
+}
+
+/* END FLOATING BUTTONS */
+
 h4 {
     font-size: 1.6rem;
 }
@@ -224,10 +282,15 @@ p {
     display: flex;
 }
 
-.sectionheading{
+.sectionheading {
     margin: auto;
     align-self: center;
     width: 100%;
+}
+
+.sectionheading p {
+    text-align: inherit;
+    
 }
 
 .flexem{
