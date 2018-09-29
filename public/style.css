@@ -3,6 +3,8 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+/* FLOATING BUTTONS */
+
 #orderOnlineFloatingMessage {
     border: 3px;
     border-color: #000000;
@@ -55,6 +57,12 @@ body{
     color: white !important;
     fill: white !important;
     stroke: white !important;
+}
+
+/* END FLOATING BUTTONS */
+
+h4 {
+    font-size: 1.6rem;
 }
 
 .antispam { display:none;}
@@ -206,8 +214,8 @@ carouselExampleControls{
 
 }
 
-p{
-    text-align: justify;
+p {
+    text-align: left;
     margin: 0 0 10px;
     font-size: 1.45rem;
       
