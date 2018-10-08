@@ -179,6 +179,7 @@ carouselExampleControls{
 }
 
 .firsthead{
+    font-weight: bold;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 
@@ -309,6 +310,7 @@ p {
 .firstheadevent{
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     align-self: center;
     
 }
